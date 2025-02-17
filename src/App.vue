@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <p-icon name="house" class="logo"></p-icon>
+  <p-button>Click</p-button>
+  <p-calendar></p-calendar>
+  <p-icon name="house" ></p-icon>
 </template>
 
 <style scoped>

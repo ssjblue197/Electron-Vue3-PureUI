@@ -8,7 +8,7 @@ import { setBasePath } from 'pure-uikit/dist/utilities/base-path.js';
 import { registerIconLibrary } from 'pure-uikit/dist/utilities/icon-library.js';
 import 'pure-uikit/dist/pure-ui.js';
 
-setBasePath('/public');
+setBasePath('/');
 registerIconLibrary('custom', {
   resolver: (name: string) => `icons/${name}.svg`, //Public folder after bundle
   mutator: (svg: SVGElement) => {

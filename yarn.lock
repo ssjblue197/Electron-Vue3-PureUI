@@ -3291,10 +3291,10 @@ pure-localize@^1.0.1:
   resolved "https://registry.yarnpkg.com/pure-localize/-/pure-localize-1.0.1.tgz#10dab6ecfd07a4e8ba2a2908677f0e61a2aaf9b2"
   integrity sha512-gidOp2Gr5PMmvxVcDh3SPJlC3vvHefcXxaWW5U38aPlQWJ74mFe32rGXZYvjqU7FzcR5O57J5FqDOjTT99aCrA==
 
-pure-uikit@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/pure-uikit/-/pure-uikit-1.3.3.tgz#5dd706ae6c90c20ccec19ce1fa932a9d404c97c1"
-  integrity sha512-hApS4P0Y6PVRvQHG/x7fiirLbaE5fedQgsCy2TmpeceTo6N8cYVkvOo8LwYl0JBes7k1G7wiKf4NBu38e7s5qA==
+pure-uikit@^1.5.15:
+  version "1.5.15"
+  resolved "https://registry.yarnpkg.com/pure-uikit/-/pure-uikit-1.5.15.tgz#88f5595637863c7f4081875fb273f833da81261c"
+  integrity sha512-bM4gsG+9pJGZHfaK7SUjt04Sw8DtBaJ+A0HWX3cZT5YOQ/WORP6jSdrJErCDYwjmelX2SEq33jY6zMgTDYD77g==
   dependencies:
     "@ctrl/tinycolor" "^4.0.2"
     "@floating-ui/dom" "^1.5.3"
@@ -4000,10 +4000,10 @@ vite-plugin-externalize-deps@^0.8.0:
   resolved "https://registry.yarnpkg.com/vite-plugin-externalize-deps/-/vite-plugin-externalize-deps-0.8.0.tgz#6aa96d3753e439495a5a0e97718a7549eb6898ed"
   integrity sha512-MdC8kRNQ1ZjhUicU2HcqGVhL0UUFqv83Zp1JZdHjE82PoPR8wsSWZ3axpot7B6img3sW6g8shYJikE0CKA0chA==
 
-vite-plugin-static-copy@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/vite-plugin-static-copy/-/vite-plugin-static-copy-1.0.6.tgz#ff457c16e8cfa564472aafd1698790ac89d05508"
-  integrity sha512-3uSvsMwDVFZRitqoWHj0t4137Kz7UynnJeq1EZlRW7e25h2068fyIZX4ORCCOAkfp1FklGxJNVJBkBOD+PZIew==
+vite-plugin-static-copy@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-static-copy/-/vite-plugin-static-copy-2.2.0.tgz#8eec750f016e508b09234da880e9310cd1367b9b"
+  integrity sha512-ytMrKdR9iWEYHbUxs6x53m+MRl4SJsOSoMu1U1+Pfg0DjPeMlsRVx3RR5jvoonineDquIue83Oq69JvNsFSU5w==
   dependencies:
     chokidar "^3.5.3"
     fast-glob "^3.2.11"
