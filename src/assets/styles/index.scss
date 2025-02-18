@@ -1,6 +1,6 @@
-@import './design/index';
-@import './others/nprogress';
-@import './others/tailwind';
-@import './others/reset';
-@import './themes/index';
-@import './components/index';
+@use 'design/index';
+@use 'others/nprogress';
+@use 'others/tailwind';
+@use 'others/reset';
+@use 'themes/index' as index2;
+@use 'components/index' as index3;

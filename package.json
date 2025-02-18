@@ -1,7 +1,13 @@
 {
-    "name": "vite-project",
+    "name": "YoutubeMasterTools",
     "private": true,
     "version": "0.0.0",
+    "type": "module",
+    "license": "MIT",
+    "description": "Media tools for youtube channels builder",
+    "engines": {
+        "node": ">=20"
+    },
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc && vite build && electron-builder",
@@ -24,11 +30,25 @@
         "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
         "@electron-forge/plugin-fuses": "^7.4.0",
         "@electron/fuses": "^1.8.0",
+        "@tato30/vue-pdf": "^1.11.3",
         "@vitejs/plugin-vue": "^5.0.4",
+        "@vueup/vue-quill": "^1.2.0",
         "autoprefixer": "^10.4.20",
+        "axios": "^1.7.9",
         "electron": "^30.0.1",
+        "mitt": "^3.0.1",
+        "nprogress": "^0.2.0",
+        "pinia": "^3.0.1",
+        "pinia-plugin-persistedstate": "^4.2.0",
         "postcss": "^8.4.47",
+        "prettier": "^3.5.1",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "pure-date-format": "^1.0.9",
+        "pure-v-model": "^1.0.3",
+        "ramda": "^0.30.1",
         "sass": "^1.79.4",
+        "socket.io-client": "^4.8.1",
+        "tailwind-merge": "^3.0.1",
         "tailwindcss": "^3.4.13",
         "tailwindcss-plugin-custom-elements": "^1.0.0",
         "typescript": "^5.2.2",
@@ -38,7 +58,10 @@
         "vite-plugin-externalize-deps": "^0.8.0",
         "vite-plugin-static-copy": "^2.2.0",
         "vite-plugin-webfont-dl": "^3.9.5",
-        "vue-tsc": "^1.8.27"
+        "vue-chartjs": "^5.3.2",
+        "vue-router": "^4.5.0",
+        "vue-tsc": "^1.8.27",
+        "zod": "^3.24.2"
     },
     "main": "dist-electron/main.js"
 }

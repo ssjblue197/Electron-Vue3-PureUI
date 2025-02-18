@@ -1,0 +1,5 @@
+@layer components {
+  p-calendar::part(calendar) {
+    min-width: 300px;
+  }
+}

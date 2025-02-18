@@ -1,0 +1,23 @@
+@layer components {
+  p-dialog::part(close-button) {
+    display: block !important;
+    padding-top: var(--header-spacing) !important;
+  }
+  p-dialog::part(body) {
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 6px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+      background: rgb(144, 147, 153, 0.3);
+      cursor: pointer;
+    }
+  }
+}

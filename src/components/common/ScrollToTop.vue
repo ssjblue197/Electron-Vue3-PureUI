@@ -1,0 +1,22 @@
+<template>
+  <span
+    class="z-[51] flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-gray-200 bg-white shadow-md hover:shadow-lg"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill="currentColor"
+        fill-rule="evenodd"
+        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+      />
+    </svg>
+  </span>
+</template>
+
+<script setup lang="ts"></script>
+
+<style lang="scss" scoped></style>
